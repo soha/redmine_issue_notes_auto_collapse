@@ -37,6 +37,11 @@ Redmineのデフォルト動作としてチケットへのコメントへは、�
 redmineのインストールパスの下のpluginsディレクトリに
 redmine_issue_notes_auto_collapseという名前でコピーする。
 
+## Usage
+
+Redmine管理画面の「ロールと権限」で管理者ロールに「Issue notes auto collapse」にチェックを入れる。
+各プロジェクトの「設定」ページの「モジュール」にて、「Issue notes auto collapse」にチェックを入れる。
+
 
 ## 参考情報
 
