@@ -10,6 +10,7 @@ module IssueNotesAutoCollapseHelper
   INAC_QUOTES_CONTENT_RE = /^([> ]+)(.*)$/m
   
   def deco_block_textile_quotes( text )
+    quotes = text
     text.gsub!( INAC_QUOTES_RE ) do |match|
       lines = match.split( /\n/ )
       quotes = ''
@@ -40,6 +41,7 @@ module IssueNotesAutoCollapseHelper
 
       quotes
     end
+    quotes
   end
 
 
